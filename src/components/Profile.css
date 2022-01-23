@@ -1,0 +1,91 @@
+.profile {
+    width: 270px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 20px;
+    height: 100%;
+    margin-right: 30px;
+}
+
+.top {
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 20px;
+    min-height: 62%;
+    padding-top: 35px;
+    padding-left: 35px;
+}
+
+.top img {
+    width: 80px;
+    border-radius: 100%;
+    border: 3px solid white;
+}
+
+.top p {
+    padding-top: 12px;
+    font-size: 15px;
+    margin-bottom: 0;
+    color: hsl(236, 100%, 87%);
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2.3em;
+    width: 50px;
+    margin-top: 2px;
+}
+
+.when{
+    padding-left: 35px;
+    padding-top: 7px;
+    color: hsl(235, 45%, 61%);
+}
+ 
+p {
+    margin-top: 20px;
+}
+
+
+.when > p:hover {
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 375px){
+
+    .profile {
+    width: 100%;
+    margin: 0;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+    .when {
+        height: 20%;
+        display: flex;
+        justify-content: space-around;
+        padding:0;
+    }
+
+    .top {
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 20px;
+    height: 70%;
+    padding-top: 35px;
+    padding-left: 35px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+    .top > img {
+        height: 70px;
+        width: 70px;
+        margin-right:20px;
+    }
+
+    .top h1 {
+        font-size: 24px;
+        width: initial;
+    }
+}

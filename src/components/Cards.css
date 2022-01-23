@@ -1,0 +1,14 @@
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 30px;
+}
+
+@media (max-width: 375px){
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+}

@@ -1,0 +1,14 @@
+.dashboard {
+width: auto;
+height: 515px;
+display: flex;
+}
+
+@media (max-width: 375px) {
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-top: 20px;
+  }
+}
